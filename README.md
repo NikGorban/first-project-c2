@@ -100,4 +100,32 @@ Nous pourrons ensuite envoyer notre travail sur `origin main` avec :
 
 	git push
 
+## récupération du repository
 
+Pour récupérer simplement un repository, on peut utiliser le clonage (première fois), dont on est propriétaire
+
+git clone CLEF_SSH (ou https)
+cd nom_du_répertoire 
+# pour voir le remote crée
+git remote -v
+...
+
+
+### récupération de commit
+
+Pour recupérer les nouveau commit uo non présent en local (par exemple travail sur plusieures machines):
+... branc
+#recupére le dossier .git
+git fetch
+
+si il y a des changents, récupération du dossier .git
+Et des fichiers physiques
+git pull 
+
+### retour sur un ancien  commit 
+# git restore 0901ff84
+
+on back " commits 
+sans modifoer
+git add .
+git commit -m"-3 commits + save files"
