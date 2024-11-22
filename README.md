@@ -45,7 +45,7 @@ git add lenomdunfichier.txt
 git add .
 ```
 
-Pour retirer du `staging` :
+Pour retirer du `staging` si on a pas encore celui-ci dans un commit : 
 
 	git restore --staged nomdufichier.
 
@@ -59,7 +59,7 @@ Nous allons sauvegarder un fichier en utilisant le `commit` :
 
 ```bash
 # sauvegarde avec commentaire
-git commit -m"First commit with README.md "
+git commit -m"First commit with README.md"
 ```
 
 ### Zone de `repository remote`
